@@ -1,0 +1,49 @@
+
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  th {
+    text-align: left;
+    background-color: #09edc7;
+    border: 1px solid #dee2e6;
+  }
+  td, th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  button {
+   
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .float-right {
+    float: right;
+    margin-right: 10px;
+  }
+  .btn {
+    margin: 10px;
+  }
+
+  .table td img:hover {
+    transform: scale(2.8);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+
+   
+
+
+
+
+  

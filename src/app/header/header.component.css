@@ -1,0 +1,34 @@
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-brand .fa-cart-shopping {
+    font-size: 1.5rem;
+  }
+  
+  .form-control {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px 20px;
+    width: 50%;
+    margin-right: 10px;
+  }
+  
+  .btn-outline-secondary {
+    border: 1px solid #6c757d;
+    color: #6c757d;
+  }
+  
+  .btn-outline-secondary:hover,
+  .btn-outline-secondary:focus {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  

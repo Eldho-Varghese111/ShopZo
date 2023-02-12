@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;1,400&display=swap');
+
+body
+{
+    font-family: 'solway', sans-serif;
+    
+        padding-bottom: 60px; /* Height of the footer */
+
+
+        overflow-x: hidden;
+      
+  
+}

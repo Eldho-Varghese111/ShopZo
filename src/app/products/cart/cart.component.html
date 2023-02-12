@@ -1,0 +1,85 @@
+<!-- when cart empty -->
+
+
+<div class="conatiner mt-5  ">
+    <div class="row text-center">
+        <div class="col">
+            <img src="https://semisearch.in/site-assets/images/no-cart.gif"
+                alt="" style="height: 300px; width: 600px;">
+
+            <h3 class="mt-2">Your Cart is Empty</h3>
+            <a routerLink="/" class="btn btn-primary">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--cart with content -->
+<div class="container">
+    <div class="row">
+        <div class="coloumn">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Nike Shoes</td>
+                        <td><img src="https://imgs.search.brave.com/rZYuvoaDG8k_IPZyO2P7vC4dTo2teOlinNlaP4lFk50/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9tZWRp/YS5hbGx0cmlja3Mu/Y29tL2hkLzVhZGRh/YThkYjRhZTYuanBn"
+                                alt=""></td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nisi nesciunt qui, maiores
+                            iste explicabo? Non dolor perferendis, accusamus minus nihil sapiente facere eaque
+                            consequatur animi voluptatem id asperiores incidunt.
+                        </td>
+                        <td>₹400</td>
+                        <td>
+                            <i  class="fa fa-trash" style="color: red; margin-left: 15px; cursor: pointer;"></i>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+
+            <div class="float-right mb-5">
+                <tr>
+                    <td>
+                        <button class="btn btn-danger">Empty Cart</button>
+                    </td>
+
+                    <td>
+                        <a routerLink="/" class="btn btn-primary">Shop More</a>
+                    </td>
+
+                    <td>
+                        <button class="btn btn-success">Check Out</button>
+                    </td>
+
+                    <td>
+                        <h5 class="mt-3">Grand Total: 0</h5>
+                    </td>
+                </tr>
+            </div>
+
+
+        </div>
+    </div>
+</div>
